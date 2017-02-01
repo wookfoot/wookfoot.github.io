@@ -35,3 +35,37 @@ h1 {
 .row {
 	margin-top: 10px;
 }
+
+/*mobile*/
+@media only screen and (max-width: 768px) {
+a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+a:hover {
+	color: #39FF14;
+	text-shadow: 3px 3px #FF14BF;
+	text-decoration: none;
+}
+body {
+  	background: url("images/mobile-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+	background-color: black;
+}
+.content {
+	margin-top: 90px;
+}
+.left {
+	text-align: center;
+}
+.right {
+	text-align: center;
+}
+.row {
+	margin-top: 0;
+}
+}
