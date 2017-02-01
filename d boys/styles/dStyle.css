@@ -1,0 +1,37 @@
+a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+a:hover {
+	color: #39FF14;
+	text-shadow: 3px 3px #FF14BF;
+	text-decoration: none;
+}
+body {
+  	background: url("images/dboys-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+	background-color: black;
+}
+.content {
+	margin: 200px 5px 0 5px;
+}
+h1 {
+    font-family: "Courier New";
+    color: #9F3;
+    text-shadow: 2px 2px #FF0000;
+    text-align: center;
+    text-decoration: blink;
+    border: outset;
+    border-width: thick;
+    border-color: #FFF;
+}
+.right {
+	text-align: right;
+}
+.row {
+	margin-top: 10px;
+}
